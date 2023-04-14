@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="../style/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'>
+
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <div class="navBar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Sign Out</a></li>
+                </ul>         
+            </div>
+        </nav>
+        
+        <div class="top">
+            <h1 id="topHeading">Welcome To Our Restaurant</h1>
+        </div>
+        
+        <div class="container" id="container">
+            <!-- Sign up form -->
+        <div class="form-container signup-container">
+            <form action="#" id="singUpForm">
+                <h1>Create Account</h1>
+                <span>Enter Your Details To signUp</span>
+                <input type="text"  placeholder="Enter Your Name">
+                <input type="email"  placeholder="abc@gmail.com">
+                <input type="password"  placeholder="Enter Strong Password">
+                <button>Sign up</button>
+            </form>
+            
+        </div>
+    
+        <!-- Signin form -->
+        <div class="form-container signin-container">
+            <form action="#">
+                <h1>Sign In</h1>
+                <input type="email" placeholder="Enter Registered Email" name="" id="">
+                <input type="password" placeholder="Enter Password" name="" id="">
+                <h5>Sign in as</h5>
+                <select>
+                    <option>Visitor</option>
+                    <option>Employee</option>
+                    <option>Internee</option>
+                </select>
+                <a href="#">Forgot Password</a>
+                <button>Sign In</button>
+            </form>
+        </div>
+    
+        <!-- Overlay container -->
+        <div class="overLay-container">
+            <div class="overLay">
+                <div class="overLay-panel overLay-left">
+                    <h1>Welcome Back</h1>
+                    <p>Keep Connected With us Login here!!</p>
+                    <button class="ghost" id="signIn">Sign In</button>
+                </div>
+                <div class="overLay-panel overLay-right">
+                    <h1>New Here!</h1>
+                    <p>Click To Sign Up</p>
+                    <button class="ghost" id="signUp">Sign Up</button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+
+
+
+    
+
+    <script src="../js/index.js"></script>
+</body>
+</html>
